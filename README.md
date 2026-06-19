@@ -5,7 +5,6 @@
 The Chocolate Sales Analytics Dashboard is an interactive Power BI report designed to analyze sales performance, shipment activity, product trends, and team performance. It enables stakeholders to monitor key business metrics and gain actionable insights through interactive visualizations and secure data access.
 
 ---
-
 ## Tech Stack
 
 The dashboard was built using the following tools and technologies:
