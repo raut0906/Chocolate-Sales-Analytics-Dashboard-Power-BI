@@ -64,4 +64,4 @@ Implemented Dynamic Row-Level Security using:
 The dashboard helps stakeholders monitor revenue trends, product performance, regional sales distribution, and team-level performance while maintaining secure data access through RLS.
 
 ## Dashboard
-![Dashboard Preview].([https://github.com/raut0906/Chocolate-Sales-Analytics-Dashboard-Power-BI/blob/main/image.png](https://github.com/raut0906/Chocolate-Sales-Analytics-Dashboard-Power-BI/blob/main/image.png))
+![Dashboard Preview].(image.png)
