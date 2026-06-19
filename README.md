@@ -9,12 +9,12 @@ The Chocolate Sales Analytics Dashboard is an interactive Power BI report design
 
 The dashboard was built using the following tools and technologies:
 
- # **Power BI Desktop** – Used for dashboard development and visualization.
- # **Power Query** – Data cleaning, transformation, and preparation.
- # **DAX (Data Analysis Expressions)** – Created KPIs and business calculations.
- # **Star Schema Data Modeling** – Implemented Fact and Dimension table architecture.
- # **Row-Level Security (RLS)** – Implemented both Static and Dynamic RLS.
- # **File Format** – `.pbix` for development and `.png` for dashboard previews.
+ * **Power BI Desktop** – Used for dashboard development and visualization.
+ * **Power Query** – Data cleaning, transformation, and preparation.
+ * **DAX (Data Analysis Expressions)** – Created KPIs and business calculations.
+ * **Star Schema Data Modeling** – Implemented Fact and Dimension table architecture.
+ * **Row-Level Security (RLS)** – Implemented both Static and Dynamic RLS.
+ * **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 ---
 
