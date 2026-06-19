@@ -1,67 +1,58 @@
-# Chocolate Sales Analytics Dashboard | Power BI
+🍫 Chocolate Sales Analytics Dashboard
+Short Description / Purpose
 
-## Project Overview
+The Chocolate Sales Analytics Dashboard is an interactive Power BI report designed to analyze sales performance, shipment activity, product trends, and team performance. It enables stakeholders to monitor key business metrics and gain actionable insights through interactive visualizations and secure data access.
 
-Developed an interactive Power BI dashboard to analyze chocolate sales performance across regions, products, teams, and sales executives. The project follows a Star Schema data model and includes both Static and Dynamic Row-Level Security (RLS) implementations.
+🛠️ Tech Stack
 
-## Key Features
+The dashboard was built using the following tools and technologies:
 
-* Interactive KPI Cards (Revenue, Shipments, Boxes, Average Shipment Value)
-* Revenue Trend Analysis
-* Regional Sales Analysis
-* Category Contribution Analysis
-* Product Performance Dashboard
-* Top Sales Executive Performance Tracking
-* Quarterly Revenue Analysis
-* Team-Based Filtering
+📊 Power BI Desktop – Used for dashboard development and visualization.
+📂 Power Query – Data cleaning, transformation, and preparation.
+🧠 DAX (Data Analysis Expressions) – Created KPIs and business calculations.
+⭐ Star Schema Data Modeling – Implemented Fact and Dimension table architecture.
+🔐 Row-Level Security (RLS) – Implemented both Static and Dynamic RLS.
+📁 File Format – .pbix for development and .png for dashboard previews.
+📂 Data Source
 
-## Data Modeling
+Source: Chocolate Sales Dataset
 
-### Star Schema Design
+The dataset contains shipment records, product information, sales team details, location data, and calendar information used to analyze revenue, shipment performance, and sales effectiveness.
 
-**Fact Table**
+✨ Features / Highlights
+Business Problem
 
-* Shipments
+Organizations often struggle to monitor sales performance across products, regions, and teams while maintaining secure access to business data.
 
-**Dimension Tables**
+Goal of the Dashboard
 
-* People
-* Products
-* Locations
-* Calendar
+To provide an interactive analytics solution that enables users to:
 
-## Security Implementation
+Monitor revenue and shipment performance.
+Analyze product and category contribution.
+Evaluate regional sales distribution.
+Track top-performing sales executives.
+Implement secure role-based data access.
+Walkthrough of Key Visuals
+KPI Cards: Total Revenue, Total Shipments, Total Boxes, and Average Shipment Value.
+Revenue Trend Analysis: Monthly sales performance tracking.
+Regional Sales Analysis: Revenue distribution across regions.
+Category Contribution: Product category performance analysis.
+Product Performance: Best-performing products by revenue.
+Top Sales Executives: Individual sales performance tracking.
+Interactive Slicers: Team, Year, and Region-based filtering.
+Data Modeling & Security
+Implemented a Star Schema with:
+Fact Table: Shipments
+Dimension Tables: People, Products, Locations, Calendar
+Created One-to-Many relationships for optimized performance.
+Implemented Static RLS using Team-based roles.
+Implemented Dynamic RLS using USERPRINCIPALNAME() and Email Mapping.
+Business Impact & Insights
+Identifies top-performing products and sales teams.
+Supports regional sales analysis and strategic planning.
+Enables secure access to data through role-based filtering.
+Helps stakeholders make informed, data-driven decisions.
+📸 Dashboard Preview
 
-### Static RLS
-
-Implemented team-based roles:
-
-* Delish
-* Tempo
-* Juicies
-* Yummies
-
-### Dynamic RLS
-
-Implemented Dynamic Row-Level Security using:
-
-* USERPRINCIPALNAME()
-* Email Mapping Column
-
-## Skills Demonstrated
-
-* Power BI
-* Data Modeling
-* Star Schema
-* DAX
-* Row Level Security (RLS)
-* Dashboard Design
-* Data Visualization
-* Business Intelligence
-
-## Business Insights
-
-The dashboard helps stakeholders monitor revenue trends, product performance, regional sales distribution, and team-level performance while maintaining secure data access through RLS.
-
-## Dashboard
-![Dashboard Preview].(image.png)
+![Dashboard Preview](https://github.com/raut0906/Chocolate-Sales-Analytics-Dashboard-Power-BI/blob/main/image.png))
