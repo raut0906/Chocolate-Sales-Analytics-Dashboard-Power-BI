@@ -62,3 +62,4 @@ Implemented Dynamic Row-Level Security using:
 ## Business Insights
 
 The dashboard helps stakeholders monitor revenue trends, product performance, regional sales distribution, and team-level performance while maintaining secure data access through RLS.
+![Dashboard Preview].()
