@@ -19,7 +19,7 @@ The dashboard was built using the following tools and technologies:
 
 ---
 
-## 📂 Data Source
+## Data Source
 
 **Source:** Chocolate Sales Dataset
 
@@ -27,7 +27,7 @@ The dataset contains shipment records, product information, sales team details, 
 
 ---
 
-## ✨ Features / Highlights
+## Features / Highlights
 
 ### Business Problem
 
@@ -72,10 +72,6 @@ To provide an interactive analytics solution that enables users to:
 
 ---
 
-## 📸 Dashboard Preview
-
-![Dashboard Preview](Add Your Dashboard Screenshot URL Here)
-
-📸 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard Preview](https://github.com/raut0906/Chocolate-Sales-Analytics-Dashboard-Power-BI/blob/main/image.png))
